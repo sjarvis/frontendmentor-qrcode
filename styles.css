@@ -22,7 +22,8 @@
 
 body {
   margin: 0; /* Remove the tiny space around the edge of the page */
-  font-family: outfit, system-ui,
+  font-family: outfit, system-ui;
+  background-color: var(--grayisblue);
 
 }
 
