@@ -1,14 +1,4 @@
 
-/*
-
-
-
-- Mobile: 375px
-- Desktop: 1440px
-
-
-
-*/
 
 :root {
      --white: hsl(0, 0%, 100%);
@@ -16,32 +6,47 @@
      --grayishblue: hsl(220, 15%, 55%);
      --darkblue: hsl(218, 44%, 22%);
      
+     --itemwidth: 100%;
      }
 
-* { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
+* { box-sizing: border-box; } 
 
 body {
-  margin: 0; /* Remove the tiny space around the edge of the page */
-  font-family: outfit, system-ui;
-  background-color: var(--grayishblue);
+  margin: 0; 
+  font-family: Outfit;
+  background-color: var(--lightgray);
      color: var(--darkblue);
 }
 
-img, video, canvas, audio, iframe, embed, object  { 
-  display: block; /* Switch display mode to block, since that's what we usually want for images. */
-}
 
 .wrapper {
-     width: 60rem;
      margin: 2em auto;
-     border-radius: 2em;
+     border-radius: 1em;
      background-color: var(--white);
+     padding: 2em;
+     width: 90%;
+     max-width: 30rem;
 
 }
 
 
+.wrapper img {
+     display: block;
+     border-radius: 1em;
+     margin: 0 auto;
+     width: var(--itemwidth);
+}
 
-p.title {
-     font-weight: bold;
-     font-size: 1.1rem;
+
+.textwrapper {
+     width: var(--itemwidth);
+     margin: 0 auto;
+     text-align: center;
+     font-weight: 400;
+}
+
+.textwrapper .title {
+     font-weight: 700;
+     font-size: 1.6rem;
+
 }
