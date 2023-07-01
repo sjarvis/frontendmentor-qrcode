@@ -1,0 +1,45 @@
+
+/*
+
+
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+
+*/
+
+:root {
+     --white: hsl(0, 0%, 100%)
+     --lightgray: hsl(212, 45%, 89%)
+     --grayishblue: hsl(220, 15%, 55%)
+     --darkblue: hsl(218, 44%, 22%)
+     
+     }
+
+* { box-sizing: border-box; } /* Switch to border-box for box-sizing. */
+
+body {
+  margin: 0; /* Remove the tiny space around the edge of the page */
+  font-family: outfit, system-ui,
+
+}
+
+img, video, canvas, audio, iframe, embed, object  { 
+  display: block; /* Switch display mode to block, since that's what we usually want for images. */
+}
+
+.wrapper {
+     width: 60rem;
+     margin: 2em auto;
+     border-radius: 2em;
+
+}
+
+
+
+p.title {
+     font-weight: bold;
+     font-size: 1.1rem;
+}
