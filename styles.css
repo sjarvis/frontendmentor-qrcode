@@ -12,15 +12,22 @@
 * { box-sizing: border-box; } 
 
 body {
-  margin: 0; 
-  font-family: Outfit;
-  background-color: var(--lightgray);
+     margin: 0; 
+     font-family: Outfit;
+     background-color: var(--lightgray);
      color: var(--darkblue);
-}
+
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     }
+
+
+
 
 
 .wrapper {
-     margin: 2em auto;
      border-radius: 1em;
      background-color: var(--white);
      padding: 2em;
@@ -38,15 +45,21 @@ body {
 }
 
 
-.textwrapper {
+.main {
      width: var(--itemwidth);
      margin: 0 auto;
      text-align: center;
      font-weight: 400;
 }
 
-.textwrapper .title {
+.main .title {
      font-weight: 700;
      font-size: 1.6rem;
 
+}
+
+
+
+footer {
+     font-style: italic;
 }
