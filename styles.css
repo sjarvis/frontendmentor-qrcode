@@ -11,10 +11,10 @@
 */
 
 :root {
-     --white: hsl(0, 0%, 100%)
-     --lightgray: hsl(212, 45%, 89%)
-     --grayishblue: hsl(220, 15%, 55%)
-     --darkblue: hsl(218, 44%, 22%)
+     --white: hsl(0, 0%, 100%);
+     --lightgray: hsl(212, 45%, 89%);
+     --grayishblue: hsl(220, 15%, 55%);
+     --darkblue: hsl(218, 44%, 22%);
      
      }
 
@@ -24,7 +24,7 @@ body {
   margin: 0; /* Remove the tiny space around the edge of the page */
   font-family: outfit, system-ui;
   background-color: var(--grayishblue);
-
+     color: var(--darkblue);
 }
 
 img, video, canvas, audio, iframe, embed, object  { 
